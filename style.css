@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.container {
+  margin: 0 20%;
+  display: flex;
+  justify-content: center;
+}
+header {
+  height: fit-content;
+}
+header .container {
+  align-items: center;
+  padding: 0.5em;
+  justify-content: space-between;
+}
+header .container div {
+  display: flex;
+}
+header .container div a {
+  height: 2.5em;
+  width: 2.5em;
+  background-color: maroon;
+  margin: 0 1em;
+}
+nav {
+  background-color: orangered;
+}
+nav .container .navbtn {
+  color: white;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-size: 1.25em;
+  border-bottom: solid 5px #00000000;
+  padding: 1em;
+  width: 100%;
+  text-align: center;
+  transition: all 200ms ease;
+}
+nav .container .navbtn:hover {
+  background-color: maroon;
+  border-bottom: solid 5px white;
+}
